@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Velunara offers premium Christmas, Halloween, gifts, and festive décor for every season — crafted for joyful celebrations and unforgettable gifting."
+    />
+    <title>Velunara | Seasonal Decor, Gifts & Holiday Magic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <p>Free worldwide shipping over $80 • International delivery available</p>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="Velunara home">
+          <span class="brand-mark">V</span>
+          <span>Velunara</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#categories">Shop</a>
+          <a href="#deals">Deals</a>
+          <a href="#about">About</a>
+          <a href="#support">Support</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="ghost-btn small" aria-label="Search products">Search</button>
+          <button class="cart-btn" aria-label="Open shopping cart">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Curated festive finds</span>
+            <h1>Celebrate every season with a little more magic.</h1>
+            <p>
+              Discover premium Christmas décor, spooky Halloween essentials, thoughtful
+              gifts, and statement pieces designed to make every celebration unforgettable.
+            </p>
+            <div class="cta-row">
+              <a href="#categories" class="primary-btn">Shop Now</a>
+              <a href="#deals" class="secondary-btn">View Deals</a>
+            </div>
+            <ul class="hero-points" aria-label="Site highlights">
+              <li>International shipping</li>
+              <li>Secure payments</li>
+              <li>Gift-ready bundles</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured seasonal products">
+            <div class="floating-card card-1">
+              <span>Christmas</span>
+              <strong>Holiday Glow</strong>
+            </div>
+            <div class="floating-card card-2">
+              <span>Halloween</span>
+              <strong>Night Magic</strong>
+            </div>
+            <div class="hero-product">
+              <img
+                src="https://images.unsplash.com/photo-1512389142869-6d6e1cae4e59?auto=format&fit=crop&w=900&q=80"
+                alt="Festive seasonal decor"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories section-spacing" id="categories">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Shop by occasion</span>
+            <h2>Seasonal collections for every celebration.</h2>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card christmas-card">
+              <div class="card-badge">Most loved</div>
+              <div class="category-copy">
+                <span>Christmas</span>
+                <h3>Holiday wonders</h3>
+                <p>Wreaths, ornaments, table styling, and gifting essentials for the most magical time of year.</p>
+                <a href="#products" class="text-link">Explore collection</a>
+              </div>
+            </article>
+
+            <article class="category-card halloween-card">
+              <div class="card-badge alt">Spooky chic</div>
+              <div class="category-copy">
+                <span>Halloween</span>
+                <h3>Midnight magic</h3>
+                <p>Lanterns, eerie décor, party props, and statement accents for a hauntingly beautiful night.</p>
+                <a href="#products" class="text-link">Discover styles</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-showcase section-spacing" id="products">
+        <div class="container">
+          <div class="section-heading split">
+            <div>
+              <span class="eyebrow">Trending now</span>
+              <h2>Featured festive finds.</h2>
+            </div>
+            <a href="#deals" class="inline-link">See all deals</a>
+          </div>
+
+          <div class="product-grid" id="product-grid"></div>
+        </div>
+      </section>
+
+      <section class="deal-banner section-spacing" id="deals">
+        <div class="container deal-inner">
+          <div>
+            <span class="eyebrow">Seasonal deals</span>
+            <h2>Save up to 35% on curated festive bundles.</h2>
+          </div>
+          <a href="#products" class="primary-btn primary-compact">Shop the Sale</a>
+        </div>
+      </section>
+
+      <section class="trust-section section-spacing" aria-label="Trust and service information">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Why customers trust Velunara</span>
+            <h2>Premium quality, safe shopping, and reliable support.</h2>
+          </div>
+
+          <div class="trust-grid">
+            <article class="trust-item">
+              <div class="icon">🔒</div>
+              <h3>Secure payments</h3>
+              <p>Your checkout is protected with trusted payment processing and encrypted transactions.</p>
+            </article>
+            <article class="trust-item">
+              <div class="icon">✨</div>
+              <h3>Quality products</h3>
+              <p>Each piece is selected for premium finishes, durability, and design that lasts across seasons.</p>
+            </article>
+            <article class="trust-item">
+              <div class="icon">💬</div>
+              <h3>Customer support</h3>
+              <p>Friendly help for product questions, order support, and seasonal gifting recommendations.</p>
+            </article>
+            <article class="trust-item">
+              <div class="icon">↩️</div>
+              <h3>Easy returns</h3>
+              <p>Simple returns and exchanges to ensure your festive shopping experience feels effortless.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="delivery section-spacing">
+        <div class="container delivery-grid">
+          <div class="delivery-copy">
+            <span class="eyebrow">Fast delivery</span>
+            <h2>Shipping designed for global customers.</h2>
+            <p>
+              From local express shipping to international delivery, we make it easy to track every order and receive your pieces on time.
+            </p>
+            <ul>
+              <li><strong>Standard:</strong> 5–8 business days</li>
+              <li><strong>Express:</strong> 2–4 business days</li>
+              <li><strong>Tracking:</strong> Live order updates included</li>
+            </ul>
+          </div>
+
+          <div class="delivery-card">
+            <div class="delivery-row">
+              <span>Delivery method</span>
+              <strong>Express worldwide</strong>
+            </div>
+            <div class="delivery-row">
+              <span>Estimated arrival</span>
+              <strong>3–6 days</strong>
+            </div>
+            <div class="delivery-row">
+              <span>Order tracking</span>
+              <strong>Live updates</strong>
+            </div>
+            <a href="#support" class="secondary-btn full-width">Track My Order</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="payment section-spacing" id="payment">
+        <div class="container payment-grid">
+          <div class="payment-box">
+            <span class="eyebrow">Secure checkout</span>
+            <h2>Ready for a payment gateway integration.</h2>
+            <p>
+              This section is built to easily connect to Stripe, PayPal, or a custom payment link when you are ready to launch live transactions.
+            </p>
+            <div class="payment-actions">
+              <button class="primary-btn">Connect Gateway</button>
+              <a href="#support" class="secondary-btn">Need help?</a>
+            </div>
+          </div>
+
+          <div class="payment-meta">
+            <div class="meta-item">
+              <span>Payment methods</span>
+              <strong>Visa • Mastercard • PayPal</strong>
+            </div>
+            <div class="meta-item">
+              <span>Encryption</span>
+              <strong>SSL protected</strong>
+            </div>
+            <div class="meta-item">
+              <span>Checkout URL</span>
+              <strong>https://your-payment-link.com</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-spacing" id="about">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1482517967863-00e15c9b44be?auto=format&fit=crop&w=1200&q=80"
+              alt="Velunara seasonal store and festive styling"
+            />
+          </div>
+
+          <div class="about-copy">
+            <span class="eyebrow">About Velunara</span>
+            <h2>We turn every season into a story worth celebrating.</h2>
+            <p>
+              Velunara brings together premium holiday décor, thoughtful gifting, and curated festive accents that transform homes, events, and memories into something magical.
+            </p>
+            <p>
+              Whether you are hosting an elegant Christmas gathering or planning a dramatic Halloween soirée, our collections are designed to inspire warmth, wonder, and joy in every detail.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="support section-spacing" id="support">
+        <div class="container support-grid">
+          <div class="support-copy">
+            <span class="eyebrow">Contact & support</span>
+            <h2>We’re here to help with every order.</h2>
+            <p>Have a question about stock, gifting, shipping, or custom orders? Reach out to our team and we’ll be happy to assist.</p>
+            <ul>
+              <li>Email: hello@velunara.com</li>
+              <li>Phone: +1 (800) 555-VELU</li>
+              <li>Hours: Mon–Sat, 9am–6pm GMT</li>
+            </ul>
+          </div>
+
+          <form class="support-form" id="support-form">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+            </label>
+            <button type="submit" class="primary-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" aria-label="Shopping cart">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="close-cart" aria-label="Close cart">×</button>
+      </div>
+
+      <div class="cart-items" id="cart-items">
+        <p class="empty-cart">Your cart is empty.</p>
+      </div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong id="subtotal">$0.00</strong>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <strong id="shipping">$0.00</strong>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <strong id="total">$0.00</strong>
+        </div>
+        <form id="checkout-form">
+          <label>
+            Full name
+            <input type="text" name="customerName" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="customerEmail" placeholder="you@example.com" required />
+          </label>
+          <button type="submit" class="primary-btn full-width">Proceed to Secure Checkout</button>
+        </form>
+      </div>
+    </aside>
+
+    <div class="overlay" aria-hidden="true"></div>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span>Velunara</span>
+          </a>
+          <p>Premium seasonal décor, gifts, and festive essentials for unforgettable celebrations.</p>
+        </div>
+
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#categories">Christmas</a></li>
+            <li><a href="#categories">Halloween</a></li>
+            <li><a href="#deals">Seasonal deals</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Customer care</h4>
+          <ul>
+            <li><a href="#support">Contact us</a></li>
+            <li><a href="#payment">Secure payments</a></li>
+            <li><a href="#support">Returns</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow us</h4>
+          <ul class="social-links">
+            <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li><a href="https://pinterest.com" target="_blank" rel="noreferrer">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2026 Velunara. All rights reserved.</p>
+          <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Shipping Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
